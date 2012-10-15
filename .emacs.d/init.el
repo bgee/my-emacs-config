@@ -144,7 +144,10 @@
     )
   )
 )
+;;Session.el
 
+(require 'session)
+  (add-hook 'after-init-hook 'session-initialize)
 
 ;C/C++ 相关设置
 ;;~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
