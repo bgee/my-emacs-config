@@ -33,6 +33,9 @@
 ;(global-set-key (kbd "C-z") 'shell)
 
 
+(require 'session)
+(add-hook 'after-init-hook 'session-initialize)
+
 ;; 加载常用功能库
 ;;******************************************************************
 ;(require 'column-marker)
