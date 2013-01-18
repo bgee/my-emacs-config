@@ -161,9 +161,9 @@
 (require 'ac-python)
 ;(require 'python-mode)
 (require 'pymacs)
-;(require 'auto-complete)
+(require 'auto-complete)
 ;(require 'auto-complete-python)
-;(global-auto-complete-mode t)
+(global-auto-complete-mode t)
 ;(define-key ac-complete-mode-map "\C-n" 'ac-next)
 ;(define-key ac-complete-mode-map "\C-p" 'ac-previous)
 ;(define-key ac-complete-mode-map "\t" 'ac-complete)
@@ -320,4 +320,3 @@
 
 (set-frame-width (selected-frame) 120)
 
-(setq auto-save-default nil)
