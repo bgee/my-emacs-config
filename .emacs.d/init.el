@@ -52,7 +52,7 @@
 ;;~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 (require 'ido)
 (ido-mode t)
-(load-file "~/cs4235/emacs-for-python/epy-init.el")
+(load-file "~/.emacs.d/emacs-for-python/epy-init.el")
 ;; 加入标签功能
 ;;~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ;(require 'tabbar)
@@ -76,7 +76,9 @@
 ;(color-theme-robin-hood)
 ;(setq theme-default 'color-theme-dirk-sh)
 (color-theme-charcoal-black)
+(load-file "~/.emacs.d/emacs-color-theme-solarized/color-theme-solarized-20131019/color-theme-solarized.el")
 
+;(require 'emacs-color-theme-solarized)
 ;(require 'php-mode)
 ;(autoload 'php-mode "php-mode" "Major mode for editing php code." t)
 ;(add-to-list 'auto-mode-alist '("\\.php$" . php-mode))
