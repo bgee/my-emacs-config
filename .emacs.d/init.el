@@ -1,3 +1,9 @@
+(setq tramp-verbose 10)
+(add-to-list 'backup-directory-alist
+             (cons tramp-file-name-regexp nil))
+(setq tramp-auto-save-directory temporary-file-directory)
+(setq tramp-default-method "ssh")
+(require 'tramp)
 ;; 设置我们自有插件目录
 ;;******************************************************************
 (add-to-list 'load-path "~/.emacs.d/")
@@ -46,7 +52,7 @@
 ;;~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 (require 'ido)
 (ido-mode t)
-
+(load-file "~/cs4235/emacs-for-python/epy-init.el")
 ;; 加入标签功能
 ;;~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ;(require 'tabbar)
@@ -60,7 +66,7 @@
 ;;~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ;(set-face-attribute 'tabbar-default-face
 ;  nil :family "Monospace")
-
+(setq-default highlight-trailing-whitespace)
 ;; 高亮风格，color-theme插件
 ;;~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 (add-to-list 'load-path "~/.emacs.d/color-theme-6.6.0")
@@ -71,14 +77,26 @@
 ;(setq theme-default 'color-theme-dirk-sh)
 (color-theme-charcoal-black)
 
+;(require 'php-mode)
+;(autoload 'php-mode "php-mode" "Major mode for editing php code." t)
+;(add-to-list 'auto-mode-alist '("\\.php$" . php-mode))
+;(add-to-list 'auto-mode-alist '("\\.inc$" . php-mode))
+
+;(load-file "~/.emacs.d/multi-mode.el")
+;(provide 'multi-mode)
+;(load-file "~/.emacs.d/html-php.el")
+;(require 'html-php-mode)
+(load "~/.emacs.d/nxhtml/autostart.el")
+(setq mumamo-background-colors nil)
+(setq mumamo-chunk-coloring 'no-chunks-colored)
 ;; 高亮显示代码
 ;;~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ;(autoload 'python-mode "python-mode" "Python Mode." t)
 ;(add-to-list 'auto-mode-alist '("\\.py\\'" . python-mode))
 ;(add-to-list 'interpreter-mode-alist '("python" . python-mode))
-(autoload 'html-helper-mode "html-helper-mode" "Yay HTML" t)
+;(autoload 'html-helper-mode "html-helper-mode" "Yay HTML" t)
 (autoload 'php-mode "php-mode" "PHP editing mode." t)
-;(setq auto-mode-alist (append (list '("\\.php$" . php-mode)) auto-mode-alist))
+(setq auto-mode-alist (append (list '("\\.html$" . php-mode)) auto-mode-alist))
 ;(add-hook 'lisp-mode-hook (lambda () (local-set-key (kbd "RET") 'newline-and-indent)))
 ;(add-hook 'emacs-lisp-mode-hook (lambda () (local-set-key (kbd "RET") 'newline-and-indent)))
 
@@ -97,9 +115,9 @@
 ;(add-hook 'texinfo-mode-hook (lambda () (require 'sb-texinfo)))
 (load-file "~/.emacs.d/cedet-1.0/speedbar/speedbar.el")
 (load-file "~/.emacs.d/cedet-1.0/common/cedet.el")
-;(semantic-load-enable-code-helpers)
-;(semantic-load-enable-guady-code-helpers)
-;(semantic-load-enable-excessive-code-helpers)
+(semantic-load-enable-code-helpers)
+(semantic-load-enable-guady-code-helpers)
+(semantic-load-enable-excessive-code-helpers)
 (autoload 'speedbar-frame-mode "speedbar" "Popup a speedbar frame" t)
 (autoload 'speedbar-get-focus "speedbar" "Jump to speedbar frame" t)
 (define-key-after (lookup-key global-map [menu-bar tools])
@@ -114,7 +132,7 @@
 ;; ECB设置
 ;;~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 (add-to-list 'load-path "~/.emacs.d/ecb-2.40")
-(require 'ecb)
+;---(require 'ecb)
 (custom-set-variables
   '(ecb-auto-activate t)     ; 自动加载ECB子窗口
   '(ecb-layout-name "left14")
@@ -124,10 +142,10 @@
   '(ecb-windows-width 0.25)
   '(ecb-source-path (quote (("/" "/"))))
 ;; 由于semantic idle反常占用CPU，所以添加以下设置
-  '(global-semantic-idle-scheduler-mode nil nil (semantic-idle))
-  '(global-semantic-idle-summary-mode nil nil (semantic-idle))
-  '(semantic-idle-scheduler-idle-time -1))
-
+;---  '(global-semantic-idle-scheduler-mode nil nil (semantic-idle))
+;---  '(global-semantic-idle-summary-mode nil nil (semantic-idle))
+;---  '(semantic-idle-scheduler-idle-time -1))
+)
 
 (setq interpreter-mode-alist
   (cons '("python" . python-mode)
@@ -155,12 +173,13 @@
 
 ;Python相关设置，由于使用了python-mode的东西，必须放到cedet后面
 ;;~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-(require 'auto-complete-config)
-(add-to-list 'ac-dictionary-directories "~/.emacs.d//ac-dict")
-(ac-config-default)
-(require 'ac-python)
+(add-hook 'python-mode-hook '(lambda () (define-key python-mode-map "\C-m" 'newline-and-indent)))
+;(require 'auto-complete-config)
+;(add-to-list 'ac-dictionary-directories "~/.emacs.d//ac-dict")
+;(ac-config-default)
+;(require 'ac-python)
 ;(require 'python-mode)
-(require 'pymacs)
+;(require 'pymacs)
 ;(require 'auto-complete)
 ;(require 'auto-complete-python)
 ;(global-auto-complete-mode t)
@@ -178,14 +197,6 @@
 ;(yas/load-directory "~/elisp/yasnippet/snippets")
 
 
-;Matlab相关设置
-;; Replace path below to be where your matlab.el file is.
-(add-to-list 'load-path "/Users/mac/.emacs.d/matlab-emacs/")
-(require 'matlab-load)
-(load-library "matlab-load")
-(matlab-cedet-setup)
-;; Enable CEDET feature support for MATLAB code. (Optional)
-;(matlab-cedet-setup)
 
 ;; 自定义按键
 ;;******************************************************************
