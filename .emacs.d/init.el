@@ -4,6 +4,9 @@
 (setq tramp-auto-save-directory temporary-file-directory)
 (setq tramp-default-method "ssh")
 (require 'tramp)
+;(color-theme-initialize)
+;(color-theme-solarized-dark)
+(require 'flymake)
 ;; 设置我们自有插件目录
 ;;******************************************************************
 (add-to-list 'load-path "~/.emacs.d/")
@@ -73,11 +76,12 @@
 (require 'color-theme)
 ;(setq color-theme-is-global t)
 (color-theme-initialize) 
+;(color-theme-solarized-dark)
 ;(color-theme-robin-hood)
 ;(setq theme-default 'color-theme-dirk-sh)
-(color-theme-charcoal-black)
+;(color-theme-charcoal-black)
 (load-file "~/.emacs.d/emacs-color-theme-solarized/color-theme-solarized-20131019/color-theme-solarized.el")
-
+(color-theme-solarized-dark)
 ;(require 'emacs-color-theme-solarized)
 ;(require 'php-mode)
 ;(autoload 'php-mode "php-mode" "Major mode for editing php code." t)
