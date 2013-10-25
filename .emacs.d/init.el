@@ -80,7 +80,7 @@
 ;(color-theme-robin-hood)
 ;(setq theme-default 'color-theme-dirk-sh)
 ;(color-theme-charcoal-black)
-(load-file "~/.emacs.d/emacs-color-theme-solarized/color-theme-solarized-20131019/color-theme-solarized.el")
+(load-file "~/.emacs.d/emacs-color-theme-solarized/color-theme-solarized.el")
 (color-theme-solarized-dark)
 ;(require 'emacs-color-theme-solarized)
 ;(require 'php-mode)
