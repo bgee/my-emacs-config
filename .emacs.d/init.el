@@ -1,3 +1,5 @@
+
+
 (setq tramp-verbose 10)
 (add-to-list 'backup-directory-alist
              (cons tramp-file-name-regexp nil))
@@ -7,6 +9,11 @@
 ;(color-theme-initialize)
 ;(color-theme-solarized-dark)
 (require 'flymake)
+(setq-default c-basic-offset 4)
+(defadvice flymake-post-syntax-check (before flymake-force-check-was-interrupted)
+    (setq flymake-check-was-interrupted t))
+(ad-activate 'flymake-post-syntax-check)
+(global-set-key (kbd "RET") 'newline-and-indent)
 ;; 设置我们自有插件目录
 ;;******************************************************************
 (add-to-list 'load-path "~/.emacs.d/")
@@ -180,6 +187,9 @@
 ;Python相关设置，由于使用了python-mode的东西，必须放到cedet后面
 ;;~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 (add-hook 'python-mode-hook '(lambda () (define-key python-mode-map "\C-m" 'newline-and-indent)))
+;;go mode
+(setq load-path (cons "/usr/local/go/misc/emacs" load-path))
+(require 'go-mode-load)
 ;(require 'auto-complete-config)
 ;(add-to-list 'ac-dictionary-directories "~/.emacs.d//ac-dict")
 ;(ac-config-default)
@@ -335,6 +345,6 @@
 
 (set-frame-height (selected-frame) 50)
 
-(set-frame-width (selected-frame) 120)
+(set-frame-width (selected-frame) 80)
 
 (setq auto-save-default nil)
