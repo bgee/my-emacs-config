@@ -1,0 +1,65 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/bi/" . ".emacs.d/")
+ ("/home/bi/Dropbox/school/research/" . "journal_experiment/")
+ ("/home/bi/Dropbox/school/" . "research/")
+ ("/home/bi/Dropbox/" . "school/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/bi/Dropbox/school/research/journal_experiment/"
+ "/home/bi/Dropbox/school/research/label/"
+ "/home/bi/Dropbox/school/research/journal_experiment/features/"
+ "/home/bi/.emacs.d/"
+ "/home/bi/Dropbox/school/research/late/"
+ "/home/bi/"
+ "/home/bi/blog/blog/"
+ "/home/bi/blog/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "box_plot.py"
+ "train.py"
+ "features.py"
+ "csvoperation.py"
+ "clean_data.py"
+ "plot.py"
+ "head_to_head_distance.py"
+ "init.el"
+ "experiment.py"
+ "late.py"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/bi/.emacs.d/" (21931 11097 906627 480000) "auto-save-list/" "session.2ceef6b8f-fbc3-4e8f-9a21-3437c4fa9e27" "session.2b9aba085-8a57-45f2-b515-9c74db40a324" "ido.last" "session.2f37415b5-4d5d-45f0-b964-0bc71718e933" "session.23ec87fbe-11c3-41b0-aaea-6ac4f0adb992" "session.2a419716a-da66-4bec-9ca2-ee7f5100dcf4" "session.26772a9c1-ca2b-4e85-89fd-2bb2b663e8f9" "session.2a61b0b55-9d19-48e8-a421-34349b527f6a" "ido.last~" "init.el" "session.258b80439-8a10-4b42-8f6f-962e38f0e504" "session.22715f010-5738-44df-b6be-366e42d3d015" "session.242773494-5595-450a-b7ec-5dbdf76669e1" "../" "session.276d4915e-70af-4512-a083-c270a627ec26" "elpa/" "session.2099b663d-b1bb-464c-a4d9-bfee05bff19b" "session.290ec132c-1fa1-4b27-bbff-97e180b5fb4d" "init.el~" "session.23b191ebf-7bc5-4aa6-8221-42b43d21baa3" "session.2d03baf75-fb6a-43be-86ce-e21af4ba0726" "ac-comphist.dat" "./" "session.20d2af164-db57-4d1c-b6b6-a88791ea3b71" "session.238931cb6-68e0-46ea-9b51-036f9d0e0da6" "session.2b004f5fc-2677-4c5d-a855-38e9421a4fc8" "session.28852b959-6596-42e7-a077-92de94cc5f20" "session.2cfc61657-06bf-476f-960c-86a9adc07a0e" "session.2d30cd287-72c9-4c15-9f4a-a04f00076591" "session.2914f641e-6f39-4d96-b3a4-6ad15c9a456e" "session.287e0878f-665e-45d4-9a41-919b12c74864" "session.21cd1f9a0-e52e-4c1a-936e-cedb4ca298d4" "session.27d6e6149-6af7-45c8-9192-78d6cca34042" "session.2f0a89925-b48f-4b68-8a81-18e3bebeb6ce" "session.2cb8aa33f-eb71-4bab-8cab-c4e279fcd912" "session.2c0580982-c80a-497e-b010-978b4a455642" "session.2e40f5df8-7258-4ebb-b2e1-32840da0b2d6" "session.25b94f288-97cf-4a58-8ada-fdfbffec7128")
+
+ ("/home/bi/Dropbox/" (21935 57872 866742 896000) ".dropbox" "school/" "Screen Shot 2013-11-09 at 1.10.04 PM.png" "Screenshot - 10192013 - 05:31:45 PM.png" ".ws.agile.1Password.settings" "QQ Photo20131009001341.jpg" "hw1/" "Getting Started.pdf" "28 - 1.jpg" "project_summary_CJ1.pdf" "screen_back/" "init.el" "Project+1+Solution/" "2013-10-27_22-28-57_195.jpg" "Screenshot - 10212013 - 03:35:11 PM.png" "visa/" "2013-10-16_19-26-23_827.jpg" "lab2.py" "new.cc" "2013-10-16_19-26-35_30.jpg" "../" "bad_recs/" "2013-10-27_22-28-57_195 (1).jpg" "visa.jpg" "visa4.jpg" "PB2115730.jpg" "Camera Uploads/" "Photos/" "2013_10_12_21.07.35.png" "./" "2013-10-02_01-27-28_839.jpg" "ece6115.tar.gz" "reverse" "Public/" "tutorial/" "ECE 2031 PROJECT FILES.tar.gz" "CROPPED-PB2115730.jpg" "match/" "2013-10-16_19-49-15_767.mp4" "Game of Thrones Remix/" "ece6115/" "stuff/" "copy of lab2/" "appartment/" ".dropbox.cache/" "bk_match/" "1Password/" "民主的细节：当代美国政治观察随笔+刘+瑜着.pdf" "Public (1)/" "Screenshot - 10232013 - 12:07:09 PM.png" "visa1.jpg" "藝術蒲公英_吉他講義.pdf" "Structuralism and Open Questions.pdf" "phone-back/" "Experian - Report Summary.pdf" "ECE 2031 PROJECT FILES/" "Screenshots/" "tutorial.pdf" "visa3.jpg" "Tune/" "lab5/" "reverse.c" "visa2.jpg" "2015lease.pdf" "2013_10_12_21.25.50.png" "Embed.tar.gz" "hw1-linuxosx/" "PB2115730 2.jpg" ".emacs.d/" "ICRA2015_LateBreaking_Bi/" "Embed/")
+
+ ("/home/bi/" (21935 57869 206499 944000) ".dmrc" ".dropbox/" ".profile" ".pki/" ".session" "plus_im.py" ".pip/" ".gnupg/" ".macromedia/" ".xscreensaver" "Desktop/" ".dropbox-dist/" ".wine-pipelight/" ".gnome/" "matlab/" ".processing/" "my-emacs-config/" "Dropbox/" ".Xauthority" "../" "haixiu/" ".atom/" ".nv/" ".mplayer/" ".java/" "Music/" ".bash_logout" ".gconf/" "Documents/" "./" ".gksu.lock" "Public/" "Templates/" ".xsession-errors" ".bash_history" ".wine/" ".watershed/" ".ipython/" ".anthy/" ".wine-pipelight64/" ".dbus/" "lisp/" ".sudo_as_admin_successful" ".matlab/" ".config/" "sketchbook/" "Videos/" ".saves/" ".xsession-errors.old" ".bashrc" "Downloads/" ".nvidia-settings-rc" ".cache/" ".subversion/" "Pictures/" ".mozilla/" "core" ".Xdefaults" ".gstreamer-0.10/" ".thumbnails/" ".ssh/" ".gimp-2.8/" ".gnome2/" ".ICEauthority" ".local/" ".emacs.d/" "blog/" ".adobe/")
+
+ ("/home/bi/Dropbox/school/research/journal_experiment/" (21930 64370 18556 303000) "90-1.0.csv" "55-1.csv" "sergio_3.csv" "__init__.py" "0-0.csv" "head_to_head_distance.pyc" "train.pyc" "train.py" "sergio_1.csv" "60-1.csv" "engaged.png" "k.csv" "90-1.csv" "100-0.csv" "princesa_cleaned.csv" "clean_data.pyc" "k_4.csv" "7-0.0.csv" "princesa_data.csv" "100-0.0.csv" "plot.py" "80-1.csv" "../" "leaning_angle.pyc" "70-1.0.csv" "12-0.0.csv" "head_to_head.csv" "result.txt" "face_orientation.py" "princesa_5.csv" "test.csv" "ball.csv" "all_distance.csv" "./" "k_cleaned.csv" "33-1.csv" "45-1.csv" "__init__.pyc" "sergio_cleaned (copy 1).csv" "12-0.csv" "body.csv.csv" "sergio.csv" "head_engaged.png" "task_distance.csv" "test.py" "head_to_head_distance.py" ".git/" "labels.csv" "princesa_3.csv" "80-1.0.csv" "70-1.csv" "face_orientation.pyc" "csvoperation.py" "head_prompted.png" "k_cleaned (copy 1).csv" "features.py" "prompted.png" "csvoperation.pyc" "features.pyc" "k_0.csv" "princesa_cleaned (copy 1).csv" "incomplete.csv" "33-1.0.csv" "60-1.0.csv" "clean_data.py" "7-0.csv" "10-0.csv" "10-0.0.csv" "45-1.0.csv" "55-1.0.csv" "abc.csv" "sergio_cleaned.csv" "0-0.0.csv" "leaning_angle.py" "princesa.csv")
+
+ ("/home/bi/Dropbox/school/research/label/" (21918 55517 607940 130000) "plot.pyc" "princesa_depth.csv" "s_depth.csv" "plot.py" "../" "d.csv" "./" ".git/" "kk_depth.csv")
+
+ ("/home/bi/Dropbox/school/research/journal_experiment/features/" (21904 48781 211760 12000) "__init__.py" "../" "face_orientation.py" "./" "__init__.pyc" "head_to_head_distance.py" ".#head_to_head_distance.py" "leaning_angle.py")
+
+ ("/home/bi/Dropbox/school/research/late/" (21901 44751 467909 586000) "tapping.csv" "../" "./" "late.py" "test.txt" "new.csv" "no_prompt.csv" ".git/" "moving.csv" "README.md")
+
+ ("/home/bi/blog/blog/" (21897 55330 907968 758000) "wsgi.pyc" "settings.pyc" "__init__.py" "../" "wsgi.py" "./" "settings.py" "__init__.pyc" "urls.py")
+
+ ("/home/bi/blog/" (21897 55324 564242 371000) "manage.py" "../" "./" ".git/" "blog/")
+
+ ("/home/bi/Desktop/" (21895 38319 676928 314000) "t/" "chess.pdf" "depthToCloud.m" "../" "d.csv" "#ttt.py#" "./" "#t1.py#" "test.py" "https___cgifederal.secure.force.pdf" "#ttt.py#~" "#test.py#" ".emacs.d/")
+
+ ("/home/bi/Dropbox/school/research/" (21888 39869 199737 828000) "Discriminative-Generative.pdf" "9218-40078-1-PB.pdf" "AudioBasics-IStream-D2D/" "late/" "SkeletonBasics-D2D/" "06907248.pdf" "BodyBasics-D2D/" "../" "journal_experiment/" "world/" "./" "FaceBasics-D2D/" "irb/" "AudioCaptureRaw-Console/" "label/" "KinectStreams/" "KinectBasicDemo/" "DepthBasics-WPF/")
+
+ ("/home/bi/Dropbox/school/" (21850 18366 838907 683000) "i20-bi-ge.jpg" "gre.pdf" "ece4100/" "cs6491/" "I-94-Bi-Ge.pdf" "cs4235/" "SCN_0001.pdf" "p0.5.pdf" "gre_Bi_Ge.pdf" "ece3020/" "2013-09-24_17-47-15_811.jpg" "midterm-review.pdf" "cetl/" "2013-09-24_17-48-28_677.jpg" "../" "p0.pdf" "Bi_Ge_resume.pdf" "Project1.mpp" "lab1.tar.gz" "senior_d/" "GEBi12242013TaxDocs.pdf" "Project1.pdf" "Project2.mpp" "4thEd-Solutions.Manual.Ch.1-7/" "CETL_Bi_Ge.pdf" "./" "CETL_Bi_Ge.docx" "request_to_participate_form_2014.pdf" "support_letter_Bi_Ge.pdf" "ece4180/" "Academic Transcipt_Bi_Ge.pdf" "finanical_sta.pdf" "application/" "2013-09-24_17-47-32_471.jpg" "ece6110/" "immunization-forms.pdf" "class.txt" "ece6615/" "research/" "immunization-forms_Ge_Bi.pdf" "ece6560/" "computer_graphics/" "pub_pol/" "test/" "tax/" "cs6601/" "Project2.pdf" "Bi_Ge_financial.pdf" "p1.pdf" "p1.cc" "writting/" "hw/" "ece3030/" "2013-09-24_17-48-11_866.jpg")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

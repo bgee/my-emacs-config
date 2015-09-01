@@ -1,0 +1,62 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/bi/" . ".emacs.d/")
+ ("/home/bi/Dropbox/school/research/" . "journal_experiment/")
+ ("/home/bi/Dropbox/school/" . "research/")
+ ("/home/bi/Dropbox/" . "school/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/bi/.emacs.d/"
+ "/home/bi/Dropbox/school/research/journal_experiment/"
+ "/home/bi/Dropbox/school/research/late/"
+ "/home/bi/"
+ "/home/bi/blog/blog/"
+ "/home/bi/blog/"
+ "/home/bi/Dropbox/school/research/label/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "init.el"
+ "train.py"
+ "clean_data.py"
+ "csvoperation.py"
+ "experiment.py"
+ "late.py"
+ "plus_im.py"
+ "__init__.py"
+ "manage.py"
+ "wsgi.py"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/bi/.emacs.d/" (21904 47692 926417 218000) "auto-save-list/" "session.2b9aba085-8a57-45f2-b515-9c74db40a324" "ido.last" "session.23ec87fbe-11c3-41b0-aaea-6ac4f0adb992" "session.2a419716a-da66-4bec-9ca2-ee7f5100dcf4" "session.26772a9c1-ca2b-4e85-89fd-2bb2b663e8f9" "ido.last~" "init.el" "session.22715f010-5738-44df-b6be-366e42d3d015" "../" "elpa/" "init.el~" "ac-comphist.dat" "./" "session.28852b959-6596-42e7-a077-92de94cc5f20" "session.2c0580982-c80a-497e-b010-978b4a455642")
+
+ ("/home/bi/" (21904 41374 816726 858000) ".dmrc" ".dropbox/" ".profile" ".pki/" ".session" "plus_im.py" ".pip/" ".gnupg/" ".macromedia/" ".xscreensaver" "Desktop/" ".dropbox-dist/" ".wine-pipelight/" ".gnome/" "matlab/" ".processing/" "my-emacs-config/" "Dropbox/" ".Xauthority" "../" ".atom/" ".nv/" ".mplayer/" ".java/" "Music/" ".bash_logout" ".gconf/" "Documents/" "./" ".gksu.lock" "Public/" "Templates/" ".xsession-errors" ".bash_history" ".wine/" ".watershed/" ".ipython/" ".anthy/" ".wine-pipelight64/" "lisp/" ".sudo_as_admin_successful" ".matlab/" ".config/" "sketchbook/" "Videos/" ".xsession-errors.old" ".bashrc" "Downloads/" ".nvidia-settings-rc" ".cache/" ".subversion/" "Pictures/" ".mozilla/" "core" ".Xdefaults" ".gstreamer-0.10/" ".thumbnails/" ".ssh/" ".gimp-2.8/" ".ICEauthority" ".local/" ".emacs.d/" "blog/" ".adobe/")
+
+ ("/home/bi/Dropbox/school/research/journal_experiment/" (21904 44540 969957 795000) "clean_data.py~" "csvoperation.py~" ".#train.py" "train.py" "depthToCloud.m~" "princesa_cleaned.csv" "clean_data.pyc" "plot.py" "../" "leaning_angle.pyc" "face_orientation.py" "princesa_5.csv" "test.csv" "./" "body.csv.csv" "princesa_3.csv" "face_orientation.pyc" "csvoperation.py" "csvoperation.pyc" "clean_data.py" "csvToCloud.m~" "abc.csv" "train.py~" "leaning_angle.py" "princesa.csv")
+
+ ("/home/bi/Dropbox/" (21904 34160 783563 582000) ".dropbox" "school/" "Screen Shot 2013-11-09 at 1.10.04 PM.png" "Screenshot - 10192013 - 05:31:45 PM.png" ".ws.agile.1Password.settings" "QQ Photo20131009001341.jpg" "hw1/" "Getting Started.pdf" "28 - 1.jpg" "project_summary_CJ1.pdf" "screen_back/" "init.el" "Project+1+Solution/" "2013-10-27_22-28-57_195.jpg" "Screenshot - 10212013 - 03:35:11 PM.png" "visa/" "2013-10-16_19-26-23_827.jpg" "lab2.py" "new.cc" "2013-10-16_19-26-35_30.jpg" "../" "bad_recs/" "2013-10-27_22-28-57_195 (1).jpg" "visa.jpg" "visa4.jpg" "PB2115730.jpg" "Camera Uploads/" "Photos/" "2013_10_12_21.07.35.png" "./" "2013-10-02_01-27-28_839.jpg" "reverse" "Public/" "tutorial/" "CROPPED-PB2115730.jpg" "match/" "2013-10-16_19-49-15_767.mp4" "Game of Thrones Remix/" "ece6115/" "stuff/" "copy of lab2/" "appartment/" ".dropbox.cache/" "bk_match/" "1Password/" "民主的细节：当代美国政治观察随笔+刘+瑜着.pdf" "Public (1)/" "Screenshot - 10232013 - 12:07:09 PM.png" "visa1.jpg" "藝術蒲公英_吉他講義.pdf" "Structuralism and Open Questions.pdf" "phone-back/" "Experian - Report Summary.pdf" "ECE 2031 PROJECT FILES/" "Screenshots/" "tutorial.pdf" "visa3.jpg" "Tune/" "lab5/" "reverse.c" "visa2.jpg" "2015lease.pdf" "2013_10_12_21.25.50.png" "hw1-linuxosx/" "PB2115730 2.jpg" ".emacs.d/" "ICRA2015_LateBreaking_Bi/" "Embed/")
+
+ ("/home/bi/Dropbox/school/research/label/" (21897 53896 862844 249000) "plot.pyc" "plot.py" "../" "d.csv" "./" ".git/")
+
+ ("/home/bi/Dropbox/school/research/late/" (21901 44751 467909 586000) "tapping.csv" "../" "./" "late.py" "test.txt" "new.csv" "no_prompt.csv" ".git/" "moving.csv" "README.md")
+
+ ("/home/bi/blog/blog/" (21897 55330 907968 758000) "wsgi.pyc" "settings.pyc" "__init__.py" "../" "wsgi.py" "./" "settings.py" "__init__.pyc" "urls.py")
+
+ ("/home/bi/blog/" (21897 55324 564242 371000) "manage.py" "../" "./" ".git/" "blog/")
+
+ ("/home/bi/Desktop/" (21895 38319 676928 314000) "t/" "chess.pdf" "depthToCloud.m" "../" "d.csv" "#ttt.py#" "./" "#t1.py#" "test.py" "https___cgifederal.secure.force.pdf" "#ttt.py#~" "#test.py#" ".emacs.d/")
+
+ ("/home/bi/Dropbox/school/research/" (21888 39869 199737 828000) "Discriminative-Generative.pdf" "9218-40078-1-PB.pdf" "AudioBasics-IStream-D2D/" "late/" "SkeletonBasics-D2D/" "06907248.pdf" "BodyBasics-D2D/" "../" "journal_experiment/" "world/" "./" "FaceBasics-D2D/" "irb/" "AudioCaptureRaw-Console/" "label/" "KinectStreams/" "KinectBasicDemo/" "DepthBasics-WPF/")
+
+ ("/home/bi/Dropbox/school/" (21850 18366 838907 683000) "i20-bi-ge.jpg" "gre.pdf" "ece4100/" "cs6491/" "I-94-Bi-Ge.pdf" "cs4235/" "SCN_0001.pdf" "p0.5.pdf" "gre_Bi_Ge.pdf" "ece3020/" "2013-09-24_17-47-15_811.jpg" "midterm-review.pdf" "cetl/" "2013-09-24_17-48-28_677.jpg" "../" "p0.pdf" "Bi_Ge_resume.pdf" "Project1.mpp" "lab1.tar.gz" "senior_d/" "GEBi12242013TaxDocs.pdf" "Project1.pdf" "Project2.mpp" "4thEd-Solutions.Manual.Ch.1-7/" "CETL_Bi_Ge.pdf" "./" "CETL_Bi_Ge.docx" "request_to_participate_form_2014.pdf" "support_letter_Bi_Ge.pdf" "ece4180/" "Academic Transcipt_Bi_Ge.pdf" "finanical_sta.pdf" "application/" "2013-09-24_17-47-32_471.jpg" "ece6110/" "immunization-forms.pdf" "class.txt" "ece6615/" "research/" "immunization-forms_Ge_Bi.pdf" "ece6560/" "computer_graphics/" "pub_pol/" "test/" "tax/" "cs6601/" "Project2.pdf" "Bi_Ge_financial.pdf" "p1.pdf" "p1.cc" "writting/" "hw/" "ece3030/" "2013-09-24_17-48-11_866.jpg")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
